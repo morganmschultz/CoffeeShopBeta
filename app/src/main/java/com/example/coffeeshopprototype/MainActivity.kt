@@ -39,4 +39,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, SecondActivity::class.java)
         startActivity(intent)
     }
+
+    fun launchGPS(view: View){
+        val intent = Intent(this, MapsActivity::class.java)
+        startActivity(intent)
+    }
 }
