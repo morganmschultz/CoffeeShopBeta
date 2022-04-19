@@ -49,8 +49,24 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun rotater(view: View){
+    fun rotator1(view: View){
         val ImageView = view.findViewById<ImageView>(R.id.black_coffee)
+        ImageView.animate().apply{
+            duration = 1000
+            rotationBy(360f)
+        }.start()
+    }
+
+    fun rotator2(view: View){
+        val ImageView = view.findViewById<ImageView>(R.id.latte)
+        ImageView.animate().apply{
+            duration = 1000
+            rotationBy(360f)
+        }.start()
+    }
+
+    fun rotator3(view: View){
+        val ImageView = view.findViewById<ImageView>(R.id.cappuccino)
         ImageView.animate().apply{
             duration = 1000
             rotationBy(360f)

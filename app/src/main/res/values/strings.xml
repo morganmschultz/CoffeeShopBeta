@@ -55,6 +55,7 @@
     <string name="dropped_pin">Dropped Pin</string>
     <string name="poi">poi</string>
     <string name="zoom">15f</string>
+    <string name="click_prompt">Click on the images for some coffee fun!</string>
 
 
 </resources>

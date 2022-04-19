@@ -41,6 +41,21 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/click_prompt"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <ImageView
                 android:id="@+id/black_coffee"
                 android:layout_width="@dimen/image_size"
@@ -51,7 +66,7 @@
                 android:src="@drawable/black_coffee"
                 tools:layout_editor_absoluteX="164dp"
                 tools:layout_editor_absoluteY="315dp"
-                android:onClick="rotater"/>
+                android:onClick="rotator1"/>
 
             <TextView
                 android:id="@+id/text_menu3"
@@ -78,7 +93,8 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/latte"
                 tools:layout_editor_absoluteX="164dp"
-                tools:layout_editor_absoluteY="315dp" />
+                tools:layout_editor_absoluteY="315dp"
+                android:onClick="rotator2"/>
 
             <TextView
                 android:id="@+id/text_menu"
@@ -106,7 +122,8 @@
                 android:src="@drawable/cappuccino"
                 tools:ignore="ImageContrastCheck"
                 tools:layout_editor_absoluteX="164dp"
-                tools:layout_editor_absoluteY="315dp" />
+                tools:layout_editor_absoluteY="315dp"
+                android:onClick="rotator3"/>
 
             <TextView
                 android:id="@+id/text_menu2"
