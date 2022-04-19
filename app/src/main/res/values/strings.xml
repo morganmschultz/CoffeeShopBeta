@@ -37,14 +37,15 @@
     <string name="coffees">Coffees</string>
     <string name="baking_goods">Baking Goods</string>
     <string name="beans">Beans</string>
-    <string name="black_coffee_description">This is a black coffee</string>
-    <string name="cappuccino_description">This is a cappuccino</string>
+    <string name="black_coffee_description">Black Coffee\nSmall: $2.00\nMedium: $3.00\nLarge: $3.50</string>
+    <string name="cappuccino_description">Cappuccino\nSmall: $3.50\nMedium: $5.25\nLarge: $6.12</string>
     <string name="latte_description">This is a latte</string>
     <string name="small">Small</string>
     <string name="medium">Medium</string>
     <string name="large">Large</string>
     <string name="size">Size</string>
     <string name="new_coffee_order">New Coffee Order</string>
+    <string name="menu_heading">Check out our delicious coffee!</string>
 
 
 </resources>
