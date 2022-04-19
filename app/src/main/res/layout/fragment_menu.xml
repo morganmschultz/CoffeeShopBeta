@@ -50,7 +50,8 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/black_coffee"
                 tools:layout_editor_absoluteX="164dp"
-                tools:layout_editor_absoluteY="315dp" />
+                tools:layout_editor_absoluteY="315dp"
+                android:onClick="rotater"/>
 
             <TextView
                 android:id="@+id/text_menu3"

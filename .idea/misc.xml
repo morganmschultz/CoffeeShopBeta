@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/A4kash/AndroidStudioProjects/CoffeeShopBeta/app/src/main/res/layout/activity_main.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/A4kash/AndroidStudioProjects/CoffeeShopBeta/app/src/main/res/layout/fragment_home.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/A4kash/AndroidStudioProjects/CoffeeShopBeta/app/src/main/res/layout/fragment_menu.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/morsc/AndroidStudioProjects/CoffeeShopPrototype-master/app/src/main/res/layout/fragment_order.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/morsc/AndroidStudioProjects/CoffeeShopPrototype-master/app/src/main/res/layout/fragment_summary.xml" value="0.1480978260869565" />
         <entry key="..\:/Users/reype/AndroidStudioProjects/CoffeeShopBeta/app/src/main/res/layout/fragment_menu.xml" value="0.1" />
