@@ -75,23 +75,6 @@
                 android:minWidth="@dimen/order_cupcake_button_width"
                 android:text="@string/my_order_history" />
 
-            <Button
-                android:id="@+id/my_rewards"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/margin_between_elements"
-                android:minWidth="@dimen/order_cupcake_button_width"
-                android:text="@string/my_rewards" />
-
-            <Button
-                android:id="@+id/check_payment_methods"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/margin_between_elements"
-                android:minWidth="@dimen/order_cupcake_button_width"
-                android:text="@string/check_payment_methods" />
         </LinearLayout>
     </ScrollView>
 
