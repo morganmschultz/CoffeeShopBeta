@@ -73,7 +73,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/margin_between_elements"
                 android:minWidth="@dimen/order_cupcake_button_width"
-                android:text="@string/my_order_history" />
+                android:text="@string/my_order_history"
+                android:onClick="launchGPS" />
 
         </LinearLayout>
     </ScrollView>
