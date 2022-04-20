@@ -10,6 +10,8 @@
     <string name="cappuccino">Cappuccino</string>
     <string name="choose_size">Choose Size</string>
 
+    <string name="caffeine">Are you sure you want to place an order?\n\nSwipe LEFT for caffeine!\n\nSwipe RIGHT to cancel :(</string>
+
     <string name="cancel">Cancel</string>
     <string name="next">Next</string>
     <string name="choose_pickup_date">Choose Pickup Date</string>
