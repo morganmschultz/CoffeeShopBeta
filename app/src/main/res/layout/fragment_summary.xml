@@ -47,8 +47,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/order_summary_margin"
-                    android:text="@{viewModel.quantity.toString()}"
-                    tools:text="6 cupcakes" />
+                    android:text="@{viewModel.type.toString()}"
+                    tools:text="Cup of Coffee" />
 
                 <View
                     android:id="@+id/divider1"

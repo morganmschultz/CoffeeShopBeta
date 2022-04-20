@@ -46,7 +46,7 @@ class SummaryFragment : Fragment() {
     fun sendOrder() {
         val orderSummary = getString(
             R.string.order_details,
-            sharedViewModel.quantity.value.toString(),
+            sharedViewModel.type.value.toString(),
             sharedViewModel.size.value.toString(),
             sharedViewModel.date.value.toString(),
             sharedViewModel.price.value.toString()
