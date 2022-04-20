@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.coffeeshopprototype">
 
@@ -12,19 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CoffeeShopPrototype">
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".MapsActivity"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
-        <activity android:name=".SecondActivity"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".SecondActivity"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

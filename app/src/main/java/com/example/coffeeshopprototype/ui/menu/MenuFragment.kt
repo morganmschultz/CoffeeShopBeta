@@ -1,10 +1,14 @@
 package com.example.coffeeshopprototype.ui.menu
 
+import android.graphics.Point
+import android.graphics.Rect
+import android.graphics.RectF
+import android.os.Build
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
+import android.widget.OverScroller
 import android.widget.TextView
+import androidx.core.view.ViewCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.coffeeshopprototype.databinding.FragmentMenuBinding
@@ -16,6 +20,8 @@ class MenuFragment : Fragment() {
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
