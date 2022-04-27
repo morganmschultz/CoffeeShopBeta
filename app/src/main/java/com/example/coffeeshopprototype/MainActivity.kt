@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener {
 
 
     fun sendData(view: View){
-        val intent = Intent(this, ThirdActivity::class.java)
+        val intent = Intent(this, SecondActivity::class.java)
         startActivity(intent)
     }
 

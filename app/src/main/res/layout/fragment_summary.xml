@@ -127,6 +127,14 @@
                 android:text="@string/send" />
 
             <Button
+                android:id="@+id/order_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/side_margin"
+                android:onClick="order_Func"
+                android:text="@string/order_butt" />
+
+            <Button
                 android:id="@+id/cancel_button"
                 android:onClick="@{() -> summaryFragment.cancelOrder()}"
                 style="?attr/materialButtonOutlinedStyle"

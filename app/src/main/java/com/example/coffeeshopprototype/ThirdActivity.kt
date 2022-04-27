@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.GestureDetector
 import android.view.MotionEvent
+import android.widget.Toast
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupActionBarWithNavController
 import kotlin.math.abs
@@ -60,8 +61,10 @@ class ThirdActivity : AppCompatActivity(), GestureDetector.OnGestureListener {
                     {
                         //left swipe
 
-                        val intent = Intent(this, SecondActivity::class.java)
+                        val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
+                        val toast = Toast.makeText(applicationContext, "Order Completed!", Toast.LENGTH_LONG)
+                        toast.show()
                     }
 
                 }
