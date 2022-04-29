@@ -89,7 +89,7 @@ class OrderViewModel : ViewModel() {
         //if coffee
         if(_quantity.value == 1){
             calculatedPrice = PRICE_PER_COFFEE
-            _type.value = "Coffee"
+            _type.value = "Black Coffee"
         }
         //if capp
         if(_quantity.value == 2){
