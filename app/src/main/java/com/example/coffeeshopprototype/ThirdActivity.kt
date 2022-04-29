@@ -56,6 +56,8 @@ class ThirdActivity : AppCompatActivity(), GestureDetector.OnGestureListener {
 
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
+                        val toast = Toast.makeText(applicationContext, "Order Cancelled!", Toast.LENGTH_LONG)
+                        toast.show()
                     }
                     else
                     {
