@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class MenuViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Latte\nSmall: $3.00\nMedium: $4.50\nLarge: $5.25"
+        value = "Latte\nS: $3.00\nM: $4.50\nL: $5.25"
     }
     val text: LiveData<String> = _text
 }

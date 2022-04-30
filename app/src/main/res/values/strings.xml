@@ -9,7 +9,6 @@
     <string name="latte">Latte</string>
     <string name="cappuccino">Cappuccino</string>
     <string name="choose_size">Choose Size</string>
-
     <string name="caffeine">Are you sure you want to place an order?\n\n\n\nSwipe LEFT for caffeine!\n\n\n\nSwipe RIGHT to cancel :(</string>
     <string name="order_butt">Order</string>
     <string name="cancel">Cancel</string>
@@ -32,8 +31,8 @@
     <string name="coffees">Coffees</string>
     <string name="baking_goods">Baking Goods</string>
     <string name="beans">Beans</string>
-    <string name="black_coffee_description">Black Coffee\nSmall: $2.00\nMedium: $3.00\nLarge: $3.50</string>
-    <string name="cappuccino_description">Cappuccino\nSmall: $3.50\nMedium: $5.25\nLarge: $6.12</string>
+    <string name="black_coffee_description">Black Coffee\nS: $2.00\nM: $3.00\nL: $3.50</string>
+    <string name="cappuccino_description">Cappuccino\nS: $3.50\nM: $5.25\nL: $6.12</string>
     <string name="latte_description">This is a latte</string>
     <string name="small">Small</string>
     <string name="medium">Medium</string>
@@ -55,6 +54,5 @@
     <string name="left_arrow_description">Left Arrow for Continue</string>
     <string name="swipe_left_text">Swipe left to place your order!</string>
     <string name="swipe_right_text">Swipe right to cancel :(</string>
-
-
+    <string name="return_home">Return Home</string>
 </resources>
