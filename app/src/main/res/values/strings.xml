@@ -13,7 +13,7 @@
     <string name="order_butt">Order</string>
     <string name="cancel">Cancel</string>
     <string name="next">Next</string>
-    <string name="choose_pickup_date">Choose Pickup Date</string>
+    <string name="choose_pickup_time">Choose Pickup Time</string>
     <string name="order_summary">Order Summary</string>
     <string name="send">Send Order to Another App</string>
     <string name="quantity">Drink</string>
@@ -31,8 +31,9 @@
     <string name="coffees">Coffees</string>
     <string name="baking_goods">Baking Goods</string>
     <string name="beans">Beans</string>
-    <string name="black_coffee_description">Black Coffee\nS: $2.00\nM: $3.00\nL: $3.50</string>
-    <string name="cappuccino_description">Cappuccino\nS: $3.50\nM: $5.25\nL: $6.12</string>
+    <string name="black_coffee_description"><b>Black Coffee</b>\nS: $2.00\nM: $3.00\nL: $3.50</string>
+    <string name="cappuccino_description"><b>Cappuccino</b>\nS: $3.50\nM: $5.25\nL: $6.12</string>
+    <string name="latte_desc"><b>Latte</b>\nS: $3.00\nM: $4.50\nL: $5.25</string>
     <string name="latte_description">This is a latte</string>
     <string name="small">Small</string>
     <string name="medium">Medium</string>
