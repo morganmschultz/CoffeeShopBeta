@@ -56,7 +56,7 @@
     <string name="swipe_left_text">Swipe left to place your order!</string>
     <string name="swipe_right_text">Swipe right to cancel :(</string>
     <string name="return_home">Return Home</string>
-    <string name="latte_desc">Cappuccino\nSmall: $3.00\nMedium: $4.50\nLarge: $5.25</string>
+    <string name="latte_desc">Latte\nSmall: $3.00\nMedium: $4.50\nLarge: $5.25</string>
     <string name="choose_pickup_time">Choose Pickup Time</string>
 
 
