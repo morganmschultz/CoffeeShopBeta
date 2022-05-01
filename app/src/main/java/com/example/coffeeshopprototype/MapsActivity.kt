@@ -49,15 +49,28 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         map = googleMap
 
-        //These coordinates represent the lattitude and longitude of the Googleplex.
+        //These coordinates represent the lattitude and longitude of the Coffeeshop1.
         val latitude = 30.2901
         val longitude = -97.7365
         val zoomLevel = 15f
         val overlaySize = 100f
 
+        //These coordinates represent the lattitude and longitude of the Coffeeshop2.
+        val latitude2 = 30.2862
+        val longitude2 = -97.7394
+
+        //These coordinates represent the lattitude and longitude of the Coffeeshop3.
+        val latitude3 = 30.28305
+        val longitude3 = -97.7366
+
         val homeLatLng = LatLng(latitude, longitude)
+        val homeLatLng2 = LatLng(latitude2, longitude2)
+        val homeLatLng3 = LatLng(latitude3, longitude3)
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(homeLatLng, zoomLevel))
+
         map.addMarker(MarkerOptions().position(homeLatLng))
+        map.addMarker(MarkerOptions().position(homeLatLng2))
+        map.addMarker(MarkerOptions().position(homeLatLng3))
 
         val googleOverlay = GroundOverlayOptions()
             .image(BitmapDescriptorFactory.fromResource(R.drawable.android))
