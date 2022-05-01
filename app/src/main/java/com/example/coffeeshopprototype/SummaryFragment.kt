@@ -72,6 +72,11 @@ class SummaryFragment : Fragment() {
         findNavController().navigate(R.id.action_summaryFragment_to_orderFragment)
     }
 
+    fun returnHome() {
+        sharedViewModel.resetOrder()
+        findNavController().navigate(R.id.action_summaryFragment_to_homeFragment)
+    }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

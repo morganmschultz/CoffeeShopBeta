@@ -49,11 +49,11 @@
             android:padding="@dimen/side_margin">
 
             <ImageView
-                android:id="@+id/wallet"
+                android:id="@+id/home_icon"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:contentDescription="@string/wallet"
-                android:src="@drawable/ic_baseline_account_balance_wallet_24"
+                android:src="@drawable/coffee"
                 tools:layout_editor_absoluteX="164dp"
                 tools:layout_editor_absoluteY="315dp" />
 
@@ -63,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/my_wallet"
                 android:textAlignment="center"
+                android:textColor="@color/brown_700"
                 android:textSize="60sp"
                 android:textStyle="bold" />
 

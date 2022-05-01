@@ -36,7 +36,7 @@
                 android:layout_marginBottom="@dimen/side_margin"
                 android:text="@string/order_coffee"
                 android:textAppearance="?attr/textAppearanceHeadline4"
-                android:textColor="@color/material_on_background_emphasis_medium" />
+                android:textColor="@color/brown_700" />
 
             <Button
                 android:id="@+id/order_black"
