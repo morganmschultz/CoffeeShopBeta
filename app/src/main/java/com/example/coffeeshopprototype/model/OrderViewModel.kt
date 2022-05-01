@@ -113,11 +113,12 @@ class OrderViewModel : ViewModel() {
 
     private fun getPickupOptions(): List<String> {
         val options = mutableListOf<String>()
-        val formatter = SimpleDateFormat("E MMM d", Locale.getDefault())
+        val formatter = SimpleDateFormat("h:mm a", Locale.getDefault())
         val calendar = Calendar.getInstance()
         repeat(4) {
+
+            calendar.add(Calendar.AM_PM+1, 1)
             options.add(formatter.format(calendar.time))
-            calendar.add(Calendar.DATE, 1)
         }
         return options
     }

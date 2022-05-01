@@ -14,11 +14,11 @@
     <string name="order_butt">Order</string>
     <string name="cancel">Cancel</string>
     <string name="next">Next</string>
-    <string name="choose_pickup_date">Choose Pickup Date</string>
+    <string name="choose_pickup_date">Choose Pickup Time</string>
     <string name="order_summary">Order Summary</string>
     <string name="send">Send Order to Another App</string>
     <string name="quantity">Drink</string>
-    <string name="pickup_date">Pickup date</string>
+    <string name="pickup_date">Pickup time</string>
     <string name="subtotal_price">Subtotal %s</string>
     <string name="total_price">Total %s</string>
     <string name="order_details">Size: %2$s \nPickup date: %3$s \nTotal: %4$s \n\nThank you!</string>
