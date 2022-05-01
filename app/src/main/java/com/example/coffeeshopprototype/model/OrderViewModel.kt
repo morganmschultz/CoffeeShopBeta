@@ -94,12 +94,12 @@ class OrderViewModel : ViewModel() {
         //if capp
         if(_quantity.value == 2){
             calculatedPrice = PRICE_PER_CAPPUCCINO
-            _type.value = "Cappuccino"
+            _type.value = "Latte"
         }
         //if latte
         if(_quantity.value == 3){
             calculatedPrice = PRICE_PER_LATTE
-            _type.value = "Latte"
+            _type.value = "Cappuccino"
         }
         if(_size.value == "Medium"){
             calculatedPrice *= PRICE_FOR_MEDIUM
