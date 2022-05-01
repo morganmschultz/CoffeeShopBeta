@@ -112,7 +112,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="@string/latte_desc"
+                android:text="@string/latte_description"
                 android:textAlignment="viewStart"
                 android:textColor="@color/brown_700"
                 android:textSize="20sp"

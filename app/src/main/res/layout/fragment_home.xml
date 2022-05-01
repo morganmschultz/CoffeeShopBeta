@@ -64,7 +64,7 @@
                 android:text="@string/my_wallet"
                 android:textAlignment="center"
                 android:textColor="@color/brown_700"
-                android:textSize="60sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <Button
